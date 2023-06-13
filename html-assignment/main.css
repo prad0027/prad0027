@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+header, footer{
+    background-color: darkolivegreen;
+}
+.site-title{
+    color: darkolivegreen;
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+ul{
+    list-style-type: square;
+}
+ul li:nth-child(odd){
+    background-color: aquamarine;
+}
+nav a{
+    text-decoration: none;
+    background-color: darkolivegreen;
+    border: 10px;
+}
+nav a:hover,
+a:focus{
+    background-color: aquamarine;
+}
+
